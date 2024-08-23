@@ -8,8 +8,10 @@ import {
 } from "react-native";
 import React from "react";
 import { Colors } from "@/constants/Colors";
+import { useRouter } from "expo-router";
 
 const SignUp = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container}>
       <Image
@@ -28,7 +30,10 @@ const SignUp = () => {
           Best App to find services near you which deliver a professional
           experience
         </Text>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => router.push("/(tabs)")}
+        >
           <Text style={styles.textButton}>Let's Get Started!</Text>
         </TouchableOpacity>
       </View>
