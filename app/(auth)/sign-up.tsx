@@ -1,4 +1,11 @@
-import { View, Text, Image, StyleSheet, SafeAreaView } from "react-native";
+import {
+  View,
+  Text,
+  Image,
+  StyleSheet,
+  SafeAreaView,
+  TouchableOpacity,
+} from "react-native";
 import React from "react";
 import { Colors } from "@/constants/Colors";
 
@@ -9,7 +16,22 @@ const SignUp = () => {
         source={require("./../../assets/images/login.png")}
         style={styles.image}
       />
-      <View style={styles.wrapper}></View>
+      <View style={styles.wrapper}>
+        <Text style={styles.title}>
+          Let's Find{" "}
+          <Text style={styles.titleAccent}>
+            Professional Cleaning and Repair
+          </Text>{" "}
+          Service
+        </Text>
+        <Text style={styles.text}>
+          Best App to find services near you which deliver a professional
+          experience
+        </Text>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.textButton}>Let's Get Started!</Text>
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };
@@ -20,12 +42,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-  },
-  text: {
-    fontSize: 16,
-    fontWeight: "600",
-    color: "white",
-    textTransform: "uppercase",
   },
   image: {
     width: 230,
@@ -42,5 +58,36 @@ const styles = StyleSheet.create({
     marginTop: -120,
     borderTopRightRadius: 30,
     borderTopLeftRadius: 30,
+    padding: 20,
+    alignItems: "center",
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: "500",
+    color: Colors.dark.text,
+    marginTop: 20,
+    textAlign: "center",
+  },
+  titleAccent: {
+    fontWeight: "700",
+    color: Colors.dark.accent,
+  },
+  text: {
+    fontSize: 16,
+    color: Colors.dark.text,
+    marginTop: 30,
+    textAlign: "center",
+  },
+  button: {
+    width: "100%",
+    padding: 16,
+    backgroundColor: Colors.dark.accent,
+    marginTop: 30,
+    alignItems: "center",
+    borderRadius: 20,
+  },
+  textButton: {
+    fontSize: 18,
+    fontWeight: "600",
   },
 });
