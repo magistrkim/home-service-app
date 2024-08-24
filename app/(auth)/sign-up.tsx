@@ -47,13 +47,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    backgroundColor: Colors.light.background
   },
   image: {
     width: 230,
     height: 450,
     marginTop: 20,
     borderWidth: 2,
-    borderColor: Colors.light.text,
+    borderColor: Colors.light.secondary,
     borderRadius: 10,
   },
   wrapper: {
