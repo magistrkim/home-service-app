@@ -8,21 +8,10 @@ const index = () => {
   return (
     // <ClerkProvider publishableKey="pk_test_YXJ0aXN0aWMtb3Jpb2xlLTY1LmNsZXJrLmFjY291bnRzLmRldiQ">
     <View style={{ flex: 1, justifyContent: "center", padding: 10 }}>
-      {/* <SignedIn>
-          <Text>Hello user</Text>
-        </SignedIn>
-        <SignedOut>
-          <Link href="/(auth)/sign-in">
-            <Text>Sign In</Text>
-          </Link>
-          <Link href="/(auth)/sign-up">
-            <Text>Sign Up</Text>
-          </Link>
-        </SignedOut> */}
       <Link href={"/(auth)/sign-up"} asChild>
         <Button text="Authorization" />
       </Link>
-      <Link href={"/(tabs)/"} asChild>
+      <Link href={"/(user)"} asChild>
         <Button text="Sign out" />
       </Link>
     </View>

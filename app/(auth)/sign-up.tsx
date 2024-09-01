@@ -32,7 +32,7 @@ const SignUp = () => {
         </Text>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => router.push("/(tabs)")}
+          onPress={() => router.push("/(user)/home")}
         >
           <Text style={styles.textButton}>Let's Get Started!</Text>
         </TouchableOpacity>
