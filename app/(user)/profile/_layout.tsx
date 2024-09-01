@@ -1,11 +1,11 @@
 import { Stack } from "expo-router";
 
-const PofileLayout = () => {
+const ProfileLayout = () => {
   return (
     <Stack>
-      <Stack.Screen name="pofile" options={{ title: "Profile" }} />
+      <Stack.Screen name="index" options={{ title: "Profile" }} />
     </Stack>
   );
 };
 
-export default PofileLayout;
+export default ProfileLayout;
