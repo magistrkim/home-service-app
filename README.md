@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+<div align="center">
+  <br />
+    <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+      <img src="https://github.com/adrianhajdin/project_react_native_jobs/assets/151519281/e7514725-0706-4080-bee4-b042554dabf7" alt="Project Banner">
+    </a>
+  <br />
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="expo" />
+  </div>
 
-## Get started
+  <h3 align="center">React Native Home Services App </h3>
 
-1. Install dependencies
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/949405ae-c30a-4079-ac8e-6496503d43f7" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/48c1135e-8813-4104-9bf9-c2c004670122" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank">
+        <img src="https://github.com/magistrkim/react-native-job-app/assets/115700340/f20bc658-214c-4426-8aed-ab4e828f827a" alt="Project Image" style="width: 300px;">
+      </a>
+    </td>
+  </tr>
+</table>
 
-   ```bash
-   npm install
-   ```
+</div>
 
-2. Start the app
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-   ```bash
-    npx expo start
-   ```
+- TypeScript
+- Supabase
+- React Native
+- Expo
+- Stylesheet
 
-In the output, you'll find options to open the app in a
+## <a name="features">🔋 Features</a>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+👉 **Visually Appealing UI/UX Design**: Develop an aesthetically pleasing user interface using React Native components.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+👉 **Third Party API Integration**: Fetch data from an external API and seamlessly integrate it into the app.
 
-## Get a fresh project
+👉 **Search & Pagination Functionality**: Implement search functionality and pagination for efficient data navigation.
 
-When you're ready, run:
+👉 **Custom API Data Fetching Hooks**: Create custom hooks for streamlined and reusable API data fetching.
 
-```bash
-npm run reset-project
-```
+👉 **Dynamic Home Page**: Explore diverse jobs from popular and nearby locations across different categories.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+👉 **Browse with Ease on Explore Page**: Navigate through various jobs spanning different categories and types.
 
-## Learn more
+👉 **Detailed Job Insights**: View comprehensive job details, including application links, salary info, responsibilities, and qualifications.
 
-To learn more about developing your project with Expo, look at the following resources:
+👉 **Tailored Job Exploration**: Find jobs specific to a particular title 
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+👉 **Robust Loading and Error Management**: Ensure effective handling of loading processes and error scenarios. 
