@@ -51,6 +51,18 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="booking"
+        options={{
+          title: "Booking",
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              name={focused ? "basket" : "basket-outline"}
+              color={color}
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
