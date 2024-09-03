@@ -1,7 +1,8 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, TextInput } from "react-native";
 import React from "react";
 import { Colors } from "@/constants/Colors";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
+import Feather from "@expo/vector-icons/Feather";
 
 const Header = () => {
   return (
@@ -19,6 +20,15 @@ const Header = () => {
         </View>
         <FontAwesome6 name="bookmark" size={24} color={Colors.light.primary} />
       </View>
+      <View style={styles.searchContainer}>
+        <TextInput placeholder="Search" style={styles.searchInput} />
+        <Feather
+          name="search"
+          size={24}
+          color={Colors.light.primary}
+          style={styles.searchIcon}
+        />
+      </View>
     </View>
   );
 };
@@ -28,7 +38,7 @@ export default Header;
 const styles = StyleSheet.create({
   container: {
     backgroundColor: Colors.light.accentLight,
-    paddingTop: 40,
+    paddingTop: 30,
     padding: 20,
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
@@ -56,5 +66,22 @@ const styles = StyleSheet.create({
   userText: {
     fontSize: 20,
     fontWeight: "500",
+  },
+  searchContainer: {
+    marginBottom: 12,
+  },
+  searchInput: {
+    fontSize: 18,
+    marginTop: 16,
+    padding: 8,
+    paddingHorizontal: 16,
+    backgroundColor: Colors.light.background,
+    borderRadius: 18,
+    position: "relative",
+  },
+  searchIcon: {
+    position: "absolute",
+    top: 24,
+    right: 10,
   },
 });
