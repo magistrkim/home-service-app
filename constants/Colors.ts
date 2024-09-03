@@ -1,6 +1,13 @@
 const tintColorLight = "#9759fd";
 const tintColorDark = "#fff";
 
+export const Fonts = {
+  fontFamilyRegular: "Outfit",
+  fontFamilyMedium: "Outfit-medium",
+  fontFamilySemiBold: "Outfit-semibold",
+  fontFamilyBold: "Outfit-bold",
+}
+
 export const Colors = {
   light: {
     text: "#11181C",

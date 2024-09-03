@@ -1,6 +1,6 @@
 import { View, Text, Image, StyleSheet, TextInput } from "react-native";
 import React from "react";
-import { Colors } from "@/constants/Colors";
+import { Colors, Fonts } from "@/constants/Colors";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import Feather from "@expo/vector-icons/Feather";
 
@@ -61,11 +61,12 @@ const styles = StyleSheet.create({
     borderRadius: 30,
   },
   text: {
+    fontFamily: Fonts.fontFamilyRegular,
     fontSize: 16,
   },
   userText: {
+    fontFamily: Fonts.fontFamilyBold,
     fontSize: 20,
-    fontWeight: "500",
   },
   searchContainer: {
     marginBottom: 12,
