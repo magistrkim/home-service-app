@@ -19,7 +19,6 @@ export default function RootLayout() {
     "Outfit": require("../assets/fonts/Outfit-Regular.ttf"),
     "Outfit-medium": require("../assets/fonts/Outfit-Medium.ttf"),
     "Outfit-bold": require("../assets/fonts/Outfit-Bold.ttf"),
-    "Outfit-semibold": require("../assets/fonts/Outfit-SemiBold.ttf"),
   });
 
   useEffect(() => {

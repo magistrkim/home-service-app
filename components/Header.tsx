@@ -72,13 +72,14 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   searchInput: {
-    fontSize: 18,
+    position: "relative",
     marginTop: 16,
     padding: 8,
     paddingHorizontal: 16,
     backgroundColor: Colors.light.background,
     borderRadius: 18,
-    position: "relative",
+    fontFamily: Fonts.fontFamilyRegular,
+    fontSize: 18,
   },
   searchIcon: {
     position: "absolute",

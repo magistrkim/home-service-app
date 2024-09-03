@@ -4,7 +4,6 @@ const tintColorDark = "#fff";
 export const Fonts = {
   fontFamilyRegular: "Outfit",
   fontFamilyMedium: "Outfit-medium",
-  fontFamilySemiBold: "Outfit-semibold",
   fontFamilyBold: "Outfit-bold",
 }
 
