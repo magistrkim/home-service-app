@@ -4,6 +4,7 @@ import { Colors, Fonts } from "@/constants/Colors";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import Feather from "@expo/vector-icons/Feather";
 
+
 const Header = () => {
   return (
     <View style={styles.container}>
@@ -29,7 +30,7 @@ const Header = () => {
           style={styles.searchIcon}
         />
       </View>
-    </View>
+      </View>
   );
 };
 

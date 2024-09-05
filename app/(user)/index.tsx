@@ -7,6 +7,7 @@ import { ThemedView } from "@/components/ThemedView";
 import Header from "@/components/Header";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "@/constants/Colors";
+import Slider from "@/components/SLider";
 
 const HomeScreen = () => {
   return (
@@ -45,6 +46,7 @@ const HomeScreen = () => {
     // </ParallaxScrollView>
     <SafeAreaView style={styles.container}>
       <Header />
+      <Slider/>
     </SafeAreaView>
   );
 };
