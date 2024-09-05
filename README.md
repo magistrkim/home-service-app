@@ -61,3 +61,5 @@
 👉 **Tailored Job Exploration**: Find jobs specific to a particular title 
 
 👉 **Robust Loading and Error Management**: Ensure effective handling of loading processes and error scenarios. 
+
+## MagistrKim 2024
