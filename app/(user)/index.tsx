@@ -7,7 +7,7 @@ import { ThemedView } from "@/components/ThemedView";
 import Header from "@/components/Header";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "@/constants/Colors";
-import Slider from "@/components/SLider";
+import Slider from "@/components/Slider";
 
 const HomeScreen = () => {
   return (
