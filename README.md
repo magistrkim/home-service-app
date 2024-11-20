@@ -62,4 +62,7 @@
 
 👉 **Robust Loading and Error Management**: Ensure effective handling of loading processes and error scenarios. 
 
-## MagistrKim 2024
+<div align="center">
+  
+## <a href="https://www.linkedin.com/in/nataliya-kachor-522170271/" target="_blank" name="features">©️ MagistrKim 2024</a>       
+</div>
